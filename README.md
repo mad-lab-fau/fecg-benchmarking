@@ -1,5 +1,5 @@
 # Fetal ECG Benchmarking
-## Robust fetal electrocardiogram extraction from non-invasive recordings
+## Robust Fetal Electrocardiogram Extraction from Non-invasive Recordings
 ![GitHub last commit](https://img.shields.io/github/last-commit/mad-lab-fau/fecg-benchmarking)
 ![GitHub](https://img.shields.io/github/license/mad-lab-fau/fecg-benchmarking)
 
@@ -7,7 +7,7 @@ The emerging technology of non-invasive fetal electrocardiography shows promise 
 
 Link to publication: xxx
 
-![Visual abstract](./Media/visual-abstract.png)
+<img src="./Media/visual-abstract.png" alt="drawing" width="700"/>
 
 The algorithm benchmarking comprises the following algorithms:
 * Power-MF (this work)
@@ -15,7 +15,16 @@ The algorithm benchmarking comprises the following algorithms:
 * Sulas ([Publication](https://www.nature.com/articles/s41597-021-00811-3), [Code](https://github.com/rsameni/NInFEADataset))
 * Varanini ([Publication](https://iopscience.iop.org/article/10.1088/0967-3334/35/8/1607), [Code](https://archive.physionet.org/challenge/2013/sources))
 
-## Project structure
+## Results
+This is an overview of the algorithm benchmarking results. The complete evaluation can be found in the corresponding publication: xxx
+
+### NInFEA Dataset
+<img src="./Media/boxplots_ninfea.png" alt="drawing" height="350"/>
+
+### ADFECG Dataset
+<img src="./Media//boxplots_adfecg.png" alt="drawing" height="350"/>
+
+## Project Structure
 ```
 fecg-benchmarking
 │   README.md
@@ -41,7 +50,7 @@ fecg-benchmarking
 ```
 
 
-## Getting started
+## Getting Started
 
 ### Installation
 ```
