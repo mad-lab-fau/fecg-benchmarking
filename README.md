@@ -17,7 +17,7 @@ The algorithm benchmarking comprises the following algorithms:
 
 ## Project structure
 ```
-power-mf-benchmarking
+fecg-benchmarking
 │   README.md
 ├── Code    # The core library folder. All project-wide helper and algorithms go here
 │   ├── benchmark_algorithms.m  # Main script for algorithm benchmarking
@@ -57,7 +57,7 @@ To use this code, the following steps are required:
 1. Clone the repository 
 2. Download the datasets NInFEA, ADFECG and Challenge2013 in the respective folders in `./Data/`
     - [NInFEA](https://physionet.org/content/ninfea/1.0.0/) 
-    - [ADFECG](ttps://doi.org/10.6084/m9.figshare.c.4740794.v1) 
+    - [ADFECG](https://doi.org/10.6084/m9.figshare.c.4740794.v1) 
     - [Challenge2013](https://physionet.org/content/challenge-2013/1.0.0/)
 3. Run the script xx to convert raw data files to .mat files -> TODO
 4. Download the dependencies to the folder `./Code/subfunctions/`
@@ -65,7 +65,7 @@ To use this code, the following steps are required:
     - [fecgsyn](https://github.com/fernandoandreotti/fecgsyn)
     - [Varanini14](https://archive.physionet.org/challenge/2013/sources)
     - [Behar14](https://archive.physionet.org/challenge/2013/sources)
-5. Run `benchmark_algorithms.m` to generate algorithm results and store them in `./Results/`folder
+5. Run `./Code/benchmark_algorithms.m` to generate algorithm results and store them in `./Results/`folder
 6. Run `./Code/boxplots_adfecgdb.m` and `./Code/boxplots_ninfea.m` to generate boxplots from results in `./Results/`folder
 
 
