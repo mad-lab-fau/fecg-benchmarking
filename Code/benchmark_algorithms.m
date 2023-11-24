@@ -165,8 +165,8 @@ for i = 1:length(datasets)
                             results2 = Varanini14(signal(:,bis+1:end), Fs);
                             
                         case "sulas"
-                            results1 = Sulas20(signal(:,1:bis), Fs);
-                            results2 = Sulas20(signal(:,bis+1:end), Fs);
+                            results1 = Sulas21(signal(:,1:bis), Fs);
+                            results2 = Sulas21(signal(:,bis+1:end), Fs);
                         case "behar"
                             results1 = Behar14(tm, signal(:,1:bis), Fs);
                             results2 = Behar14(tm, signal(:,bis+1:end), Fs);
@@ -187,7 +187,7 @@ for i = 1:length(datasets)
                         case "varanini"
                             results = Varanini14(signal, Fs);
                         case "sulas"
-                            results = Sulas20(signal, Fs);
+                            results = Sulas21(signal, Fs);
                         case "behar"
                             results = Behar14(tm, signal, Fs);
                     end
