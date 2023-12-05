@@ -11,7 +11,7 @@
 % publication.
 
 
-function [fetal_QRSAnn_est,Ser,ecgs] = Varanini14(ECG,fs,cName,qrsAf,graphDflags)
+function [fetal_QRSAnn_est] = Varanini14(ECG,fs,cName,qrsAf,graphDflags)
 % Algorithm for Physionet/CinC competition 2013.
 %
 % [fetal_QRSAnn_est,QT_Interval] = physionet2013(tm,ECG,cName,qrsAf)
@@ -26,8 +26,6 @@ function [fetal_QRSAnn_est,Ser,ecgs] = Varanini14(ECG,fs,cName,qrsAf,graphDflags
 % outputs :
 %   fetal_QRSAnn_est :  FQRS markers. Each marker indicates the position of one
 %                       of the FQRS detected by the algorithm.
-%   Ser : Signal after mECG suppression and fetal ECG enhancement
-%   ecgs : Derivative signal, signal on which peaks are detected
 %
 
 %% Parameter definition
