@@ -1,5 +1,5 @@
 # Fetal ECG Benchmarking
-## Robust Fetal Electrocardiogram Extraction from Non-invasive Recordings
+## Robust Fetal QRS Extraction from Non-invasive  Electrocardiogram Recordings
 ![GitHub last commit](https://img.shields.io/github/last-commit/mad-lab-fau/fecg-benchmarking)
 ![GitHub](https://img.shields.io/github/license/mad-lab-fau/fecg-benchmarking)
 
