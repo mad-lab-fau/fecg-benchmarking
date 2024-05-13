@@ -5,7 +5,7 @@
 
 The emerging technology of non-invasive fetal electrocardiography shows promise as a new sensing technology for fetal cardiac activity, offering potential advancements in the detection and management of perinatal asphyxia. Although algorithms for fetal QRS detection have been developed in the past, only a few of them demonstrate accurate performance in the presence of noise and artifacts. We propose Power-MF, a new algorithm for fetal QRS detection combining power spectral density and matched filter techniques. This repository presents a benchmark of Power-MF against against three open-source algorithms on two recently published datasets (Abdominal and Direct Fetal ECG Database: ADFECG, subsets B1 Pregnancy and B2 Labour; Non-invasive Multimodal Foetal ECG-Doppler Dataset for Antenatal Cardiology Research: NInFEA). 
 
-Link to publication: xxx
+Link to publication: https://doi.org/10.1088/1361-6579/ad4952
 
 <img src="./Media/visual-abstract.png" alt="drawing" width="700"/>
 
